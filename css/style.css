@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #68217A;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #68217A;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Specific Styles */
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #68217A;
+  }
+  
+  /* Additional Styles for the Purple Theme */
+  body {
+    color: #333;
+  }
+  
+  header {
+    background-color: #68217A;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #68217A;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  /* Contact Form Styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #68217A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #591d6a;
+  }
+  
+  img {
+    width="200px"
+    length="200px">
+  }
+  
